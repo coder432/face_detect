@@ -3,7 +3,8 @@
 import cv2
 
 #path for cascades
-casc_path_face=' enter cascade path here' #copy the location of face cascade as string eg(C:\opencv\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml)
+casc_path_face=' enter cascade path here' 
+#copy the location of face cascade as string eg(C:\opencv\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml)
 
 #creating cascades
 face_cascade=cv2.CascadeClassifier(casc_path_face)
